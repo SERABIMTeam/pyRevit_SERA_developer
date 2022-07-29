@@ -1,0 +1,2 @@
+X:\Autodesk\pyRevit\developer.extension\SERA.tab\Developer.panel\Window.pushbutton\WPFEditProject\WPFEditProject\obj\Debug\net6.0-windows\WPFEditProject.csproj.AssemblyReference.cache
+X:\Autodesk\pyRevit\developer.extension\SERA.tab\Developer.panel\Window.pushbutton\WPFEditProject\WPFEditProject\obj\Debug\net6.0-windows\WPFEditProject_MarkupCompile.cache
