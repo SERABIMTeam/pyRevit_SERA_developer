@@ -1,0 +1,3 @@
+i made an edit and I'm wondering if the startup script will publish this to my local frame instance.
+
+If I'm reading this, then it did.
