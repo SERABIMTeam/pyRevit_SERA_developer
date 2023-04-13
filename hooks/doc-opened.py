@@ -5,7 +5,7 @@ from Autodesk.Revit.DB import ModelPathUtils
 
 title = "Warning!"
 message = "You've opened the central model. OMG!"
-body = "All will be fine. Simply click OK, do not save, and close out of the file. Try creating a local from this file instead."
+body = "No worries, all will be fine. Simply click OK, do not save, and close out of the file. Try creating a local from this file instead."
 
 if EXEC_PARAMS.event_args.Document.IsWorkshared:
 
