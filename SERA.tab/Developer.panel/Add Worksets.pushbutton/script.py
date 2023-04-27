@@ -15,7 +15,11 @@ def create_worksets(d, names):
         ws = DB.Workset.Create(d, name)
 
 workset_names = ["DATUM ELEMENTS", "MAIN MODEL", "UNITS", "X_A_SITE_RVT", "X_M_MECHANICAL_RVT", "X_S_STRUCTURAL_RVT"]
-        
+
+# enable worksharing
+if not doc.IsWorkShared:
+      WorksharingUtils.EnableWorksharing(doc)
+
 if doc.IsWorkshared:
     t = DB.Transaction(doc, "Create Worksets")
     t.Start()
