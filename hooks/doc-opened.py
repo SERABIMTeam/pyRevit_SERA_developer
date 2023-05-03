@@ -15,11 +15,11 @@ if EXEC_PARAMS.event_args.Document.IsWorkshared:
 
     modifiedCentralPath = centralPath.replace("\\\\local.serapdx.com\\library\\Projects\\","P:\\")
 
-    if  currentDocPath == modifiedCentralPath:
-        forms.alert(message,title,body)
-    else:
+    try:
+        if  currentDocPath == modifiedCentralPath and not "Autodesk Docs" in currentDocPath:
+            forms.alert(message,title,body)
+    except Exception as e:
         pass
-        #forms.alert("Nothing is wrong at all. Carry on.","Central Model Check", "Central File Path: \n" + modifiedCentralPath,"Current File Path: \n" + currentDocPath)
-
+    
 else:
     pass
